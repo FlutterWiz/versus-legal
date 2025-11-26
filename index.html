@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versus - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .card-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e7eb;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .version {
+            background: #e0e7ff;
+            color: #4338ca;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .logo {
+                font-size: 36px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">VERSUS</div>
+        <p class="tagline">Anonymous Social Swipe & Vote App</p>
+
+        <div class="version">v1.0.0</div>
+
+        <h1>Legal Documents</h1>
+        <p style="color: #666; margin-bottom: 20px;">Choose your language / Dil seçin</p>
+
+        <div class="card-grid">
+            <a href="privacy.html" class="card">
+                <div class="card-icon">🔒</div>
+                <div class="card-title">Privacy Policy 🇬🇧</div>
+                <p class="card-description">
+                    Learn how we collect, use, and protect your personal information
+                </p>
+            </a>
+
+            <a href="privacy-tr.html" class="card">
+                <div class="card-icon">🔒</div>
+                <div class="card-title">Gizlilik Politikası 🇹🇷</div>
+                <p class="card-description">
+                    Kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin
+                </p>
+            </a>
+
+            <a href="terms.html" class="card">
+                <div class="card-icon">📋</div>
+                <div class="card-title">Terms of Service 🇬🇧</div>
+                <p class="card-description">
+                    Understand the rules and guidelines for using Versus
+                </p>
+            </a>
+
+            <a href="terms-tr.html" class="card">
+                <div class="card-icon">📋</div>
+                <div class="card-title">Kullanım Koşulları 🇹🇷</div>
+                <p class="card-description">
+                    Versus kullanım kurallarını ve yönergelerini anlayın
+                </p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p><strong>Contact Us</strong></p>
+            <p>Email: <a href="mailto:contact@alperefesahin.com">contact@alperefesahin.com</a></p>
+            <p>GitHub: <a href="https://github.com/FlutterWiz/versus" target="_blank">FlutterWiz/versus</a></p>
+            <p style="margin-top: 20px;">
+                <small>Last Updated: November 26, 2025</small>
+            </p>
+            <p style="margin-top: 10px;">
+                <small>© 2025 Versus. All rights reserved.</small>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
